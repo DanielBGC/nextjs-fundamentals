@@ -1,12 +1,12 @@
 import styles from '../styles/StyledPage.module.css';
-import Link from 'next/link'
+import Layout from '@/components/Layout';
 
 export default function styledPage() {
   return(
-    <div className={styles.purpleDiv}>
-      <h1>Styled Page</h1>
-
-      <Link href='/'>Go Back to Home</Link>
-    </div>
+    <Layout>
+      <div className={styles.purpleDiv}>
+        <h1>Styled Page</h1>
+      </div>
+    </Layout>
   )
 }

@@ -1,0 +1,15 @@
+.purpleDiv {
+  background-color: #670bbd;
+  color: #fff;
+  height: 100vh;
+  text-align: center;
+}
+
+.purpleDiv h1 {
+  margin: 0
+}
+
+/* The selector below won't work in modularized CSS, only globals CSS */
+/* h1 { 
+  margin: 0
+} */

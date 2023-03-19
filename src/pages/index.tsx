@@ -1,15 +1,25 @@
-import Link from 'next/link'
-import Header from "@/components/Header";
-
+import NavLink from '@/components/NavLink';
 
 export default function Home() {
   return (
     <>
       <h1>Home</h1>
-      <Header title="Custom Header Title"/>
 
-      <Link href='/StyledPage'>Go To Styled Page</Link>
+      <div
+        style={{
+          display: 'flex',
+          flexDirection: 'row',
+          justifyContent: 'center',
+          alignItems: 'center',
+          flexWrap: 'wrap',
+          height: '100vh',
+          gap: 30,
+        }}
+      >
+        <NavLink href='/StyledPage' text='Go To Styled Page' />
+
+        <NavLink href='/JSX' text='Go To JSX Page' />
+      </div>
     </>
-  )
+  );
 }
-

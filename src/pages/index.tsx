@@ -23,6 +23,8 @@ export default function Home() {
         <NavLink href='/client/Uberaba/123' text='Go To Cliente Page' />
 
         <NavLink href='/consumingAPI' text='Go To Consuming API Page' />
+
+        <NavLink href='/staticGeneration' text='Go To Static Generation Page' />
       </div>
     </>
   );

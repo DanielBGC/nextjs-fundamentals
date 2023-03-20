@@ -21,6 +21,8 @@ export default function Home() {
         <NavLink href='/JSX' text='Go To JSX Page' />
 
         <NavLink href='/client/Uberaba/123' text='Go To Cliente Page' />
+
+        <NavLink href='/consumingAPI' text='Go To Consuming API Page' />
       </div>
     </>
   );
